@@ -1,5 +1,5 @@
 
-/*&Javascipt Console API
+//&Javascipt Console API
 console.log("Hello World")
 console.warn("this is warning")
 console.error("This is a error")
@@ -86,10 +86,10 @@ console.log(mydate.getTime());
 let elem=document.getElementById('click');
 console.log(elem);
 let elemClass = document.getElementsByClassName("container");
-console.log(elemClass);
+console.log(elemClass[0]);
 //elemClass[0].style.background ="yellow";
-elemClass[0].classList.add(bg-primary);
-elemClass[0].classList.add(text-success);
+elemClass[0].classList.add('bg-primary');
+elemClass[0].classList.add('text-success');
 
 //Selector using query
 sel=document.querySelector('.container');
@@ -131,10 +131,11 @@ logkaro =() =>{
     console.log("I am Your log");
 }
 //set time out  and set interval
-seTimeout(logkaro,2000);
+setTimeout(logkaro,2000);
 localStorage.setItem('name' ,'harry')
 //localStorage.removeItem()
 
 //Template Literals -backtiks
 a=34;
 console.log('This is my'[a]);
+console.log("Hello World");

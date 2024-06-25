@@ -128,7 +128,7 @@ summ=(a,b) =>{
 
 }
 logkaro =() =>{
-    console.log("I am Your log");
+    console.log("I am Your log to be done");
 }
 //set time out  and set interval
 setTimeout(logkaro,2000);
